@@ -14,11 +14,13 @@ The steps involved in this project are outlined below:
 We installed the necessary libraries for natural language processing and deep learning, including transformers, datasets, nltk, evaluate, accelerate, and wandb.
 
 ### Step 2: Data Downloading and Preprocessing
-* Downloading the Dataset: We used the datasets library to download the IMDB dataset, which consists of 50,000 movie reviews.
-* Preprocessing: We expanded contractions, removed HTML tags, handled negations, tokenized the text, removed stop words, and lemmatized the words. This preprocessing was essential to clean the text data before feeding it into the models.
+Downloading the Dataset: We used the datasets library to download the IMDB dataset, which consists of 50,000 movie reviews.
+
+Preprocessing: We expanded contractions, removed HTML tags, handled negations, tokenized the text, removed stop words, and lemmatized the words. This preprocessing was essential to clean the text data before feeding it into the models.
 ### Step 3: Tokenization and Embeddings
-* Tokenization: We tokenized the text data for the DistilBERT model using the distilbert-base-uncased tokenizer.
-* Word Embeddings: For SimpleNN and DeepNN models, we created word embeddings using the Word2Vec model.
+Tokenization: We tokenized the text data for the DistilBERT model using the distilbert-base-uncased tokenizer.
+
+Word Embeddings: For SimpleNN and DeepNN models, we created word embeddings using the Word2Vec model.
 ### Step 4: Dataset and DataLoader Creation
 We created custom datasets and data loaders for training and testing the models:
 
@@ -34,8 +36,9 @@ DeepNeuralNet: A more complex neural network with multiple layers and convolutio
 
 DistilBERT: A pre-trained transformer model fine-tuned for the sentiment classification task.
 ### Step 6: Training and Evaluation
-* Training Loop: We implemented a training loop with early stopping to prevent overfitting.
-* Evaluation: We evaluated the models using accuracy as the primary metric.
+Training Loop: We implemented a training loop with early stopping to prevent overfitting.
+
+Evaluation: We evaluated the models using accuracy as the primary metric.
 ### Step 7: Hyperparameter Tuning and Model Comparison
 We experimented with different hyperparameters, such as learning rates and model configurations, to identify the best-performing model. The performance of each model was logged and visualized using Weights & Biases (WandB).
 
