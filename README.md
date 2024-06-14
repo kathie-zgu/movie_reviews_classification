@@ -1,5 +1,13 @@
 # Movie Reviews Classification (NLP) Project Summary
-This project focuses on classifying movie reviews as positive or negative using the IMDB dataset. We employed deep learning techniques to achieve this classification task. The steps involved in this project are outlined below:
+This project focuses on classifying movie reviews as positive or negative using the IMDB dataset. We employ deep learning algorithms to predict the sentiment of these reviews using three different models with various hyperparameters:
+
+- SimpleNeuralNet (custom model)
+- DeepNeuralNet (custom model)
+- DistilBERT (distilbert-base-uncased)
+  
+Results can be found in the notebook and at the [WandB report](https://api.wandb.ai/links/e-v-zgurskaya/u4vehuno).
+
+The steps involved in this project are outlined below:
 
 ## Project Description
 ### Step 1: Setting Up the Environment
