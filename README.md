@@ -3,9 +3,7 @@ This project focuses on classifying movie reviews as positive or negative using 
 
 - SimpleNeuralNet (custom model)
 - DeepNeuralNet (custom model)
-- DistilBERT (distilbert-base-uncased)
-  
-Results can be found in the notebook and at the [WandB report](https://api.wandb.ai/links/e-v-zgurskaya/u4vehuno).
+- DistilBERT (fine-tuned distilbert-base-uncased)
 
 The steps involved in this project are outlined below:
 
@@ -43,6 +41,12 @@ Evaluation: We evaluated the models using accuracy as the primary metric.
 We experimented with different hyperparameters, such as learning rates and model configurations, to identify the best-performing model. The performance of each model was logged and visualized using Weights & Biases (WandB).
 
 ## Conclusion
-This project demonstrated the application of various deep learning techniques to the task of sentiment analysis on movie reviews. By comparing different models and hyperparameters, we were able to determine the most effective approach for classifying movie reviews as positive or negative. The results indicate that pre-trained transformer models like DistilBERT significantly outperform simpler neural network architectures in this task.
+This project demonstrated the application of various deep learning techniques to the task of sentiment analysis on movie reviews. By comparing different models and hyperparameters, we were able to determine the most effective approach for classifying movie reviews as positive or negative.
+
+The results indicate that pre-trained transformer models like DistilBERT significantly outperform simpler neural network architectures in this task:
+
+- Fine-tuned DistilBERT showed its best accuracy at third epoch = 0.9050
+- SimpleNN showed its best accuracy at sixth epoch = 0.7957
+- DeepNN showed its best accuracy at tenth epoch = 0.8522
 
 For detailed results and further analysis, refer to the [WandB report]( https://api.wandb.ai/links/e-v-zgurskaya/u4vehuno)
