@@ -45,8 +45,9 @@ This project demonstrated the application of various deep learning techniques to
 
 The results indicate that pre-trained transformer models like DistilBERT significantly outperform simpler neural network architectures in this task:
 
-- Fine-tuned DistilBERT showed its best accuracy at third epoch = 0.9050
-- SimpleNN showed its best accuracy at sixth epoch = 0.7957
-- DeepNN showed its best accuracy at tenth epoch = 0.8522
+- Fine-tuned DistilBERT showed its best accuracy at third epoch with lr=1e-5: 0.9050
+- DeepNN showed its best accuracy at sixth epoch with lr=1e-3 : 0.8522
+- SimpleNN showed its best accuracy at tenth epoch with lr=1e-4: 0.7957
+
 
 For detailed results and further analysis, refer to the [WandB report]( https://api.wandb.ai/links/e-v-zgurskaya/u4vehuno)
